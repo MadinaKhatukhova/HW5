@@ -11,19 +11,34 @@ public class Main {
         if (age1 >= 7)  {
             System.out.println("Можешь ходить в школу!");
         }
+        if (age1 > 7)  {
+            System.out.println("Не можешь ходить в школу!");
+
         int age2 = 18;
         if (age2 >= 18)  {
             System.out.println("Можешь ходить в университет!");
         }
+        if (age2 > 18)  {
+                System.out.println("Не можешь ходить в университет!");
+        }
         int age3 = 25;
         if (age3 >= 24)  {
             System.out.println("Можешь искать работу!");
+
     }
-        int place = 102;
+        if (age3 > 24)  {
+            System.out.println("Не можешь искать работу!");
+
+        int place = 60;
         if (place <= 102)  {
+            System.out.println("Вместимость 102");
+        }
+        if (place < 102)  {
             System.out.println("Вагон уже полностью забит!");
+        }}}}
 
 
 
 
-    }}}
+
+        }
