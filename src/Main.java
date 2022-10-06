@@ -18,4 +18,12 @@ public class Main {
         int age3 = 25;
         if (age3 >= 24)  {
             System.out.println("Можешь искать работу!");
+    }
+        int place = 102;
+        if (place <= 102)  {
+            System.out.println("Вагон уже полностью забит!");
+
+
+
+
     }}}
